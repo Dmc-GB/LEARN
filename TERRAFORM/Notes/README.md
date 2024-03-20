@@ -20,17 +20,17 @@ La méthode manuelle permet de déployer rapidement une ou des ressources dans v
 * Il est facile de faire des erreurs en tant qu'humain
 * Il n'y a pas forcément d'historique donc c'est compliqué de transmettre de manièe fiable les configurations faites à d'autres personnes
 * Il est difficile de gérer l'état de configuration attendu pour la conformité
-*- Déployer une seule ressource c'est bien. Mais quand il faut dupliquer cette ressource avec exactement les mêmes configurations et à grande échelle, cela devient compliqué avec des risques de mauvaises configurations.
+* Déployer une seule ressource c'est bien. Mais quand il faut dupliquer cette ressource avec exactement les mêmes configurations et à grande échelle, cela devient compliqué avec des risques de mauvaises configurations.
 
 D'où l'infrastructure as Code.
 
 L'infrastructure as Code c'est :
 
--* Des scripts pour autmatiser les déploiements, mises à jours et destruction de l'infrastructure
--* Un plan complet de votre infrastructure avec les différentes ressources et configurations "WYSIWYG pour What You See Is What You Get" (ce qui veut dire que vous aurez en résultats ce que vous avez marqué dans votre script.
--* Simplicité de partage et de versionning des configurations de votre infrastructure
--* Idempotence : c'est à dire que peu importe le nombre de fois où vous rejoués le code, vous aurez le même résultat expecté
--* Planifier des mutations/évolution via le code
+* Des scripts pour autmatiser les déploiements, mises à jours et destruction de l'infrastructure
+* Un plan complet de votre infrastructure avec les différentes ressources et configurations "WYSIWYG pour What You See Is What You Get" (ce qui veut dire que vous aurez en résultats ce que vous avez marqué dans votre script.
+* Simplicité de partage et de versionning des configurations de votre infrastructure
+* Idempotence : c'est à dire que peu importe le nombre de fois où vous rejoués le code, vous aurez le même résultat expecté
+* Planifier des mutations/évolution via le code
 
 ### Pourquoi Terraform ?
 
