@@ -17,10 +17,10 @@ Et donc Terraform c'est un outil qui permet de définir votre infrastructure en 
 
 Pour répondre à cette question, jetons un coup d'oeil a la méthode manuelle.
 La méthode manuelle permet de déployer rapidement une ou des ressources dans votre environnement. Cependant il pose plusieurs problème à savoir:
--* Il est facile de faire des erreurs en tant qu'humain
--* Il n'y a pas forcément d'historique donc c'est compliqué de transmettre de manièe fiable les configurations faites à d'autres personnes
--* Il est difficile de gérer l'état de configuration attendu pour la conformité
--* Déployer une seule ressource c'est bien. Mais quand il faut dupliquer cette ressource avec exactement les mêmes configurations et à grande échelle, cela devient compliqué avec des risques de mauvaises configurations.
+* Il est facile de faire des erreurs en tant qu'humain
+* Il n'y a pas forcément d'historique donc c'est compliqué de transmettre de manièe fiable les configurations faites à d'autres personnes
+* Il est difficile de gérer l'état de configuration attendu pour la conformité
+*- Déployer une seule ressource c'est bien. Mais quand il faut dupliquer cette ressource avec exactement les mêmes configurations et à grande échelle, cela devient compliqué avec des risques de mauvaises configurations.
 
 D'où l'infrastructure as Code.
 
